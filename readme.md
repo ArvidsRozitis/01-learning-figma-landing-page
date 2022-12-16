@@ -1,3 +1,1 @@
-starting new repo for learning figma
-
-hope it will work
+Tested and it worked! Soon need to start working ond landing page.
