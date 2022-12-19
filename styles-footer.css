@@ -1,19 +1,18 @@
 .logo{
-    width: 112px;
     height: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 12px;
 }
-.logo-circle{    
+.logo-circle{
+    display: flex;
     width: 40px;
     height: 40px;
     border-radius: 50%;    
     background-color: #FF7235;
     justify-content: center;
-    display: flex;
-    align-items: flex-end;    
+    align-items: flex-end; 
 }
 .logo-symbol{
     font-family: 'Hind Siliguri', sans-serif;
@@ -182,18 +181,22 @@
 .footer-bottom-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     width: 1109px;
 }
 .footer-bottom-left-container{
     display: flex;
     flex-direction: row;
     gap: 24px;
+    justify-self: start;
+    flex-grow: 1;    
 }
 .footer-bottom-social-container{
     display: flex;
+    justify-content: end;
     flex-direction: row;
-    gap: 12px;
+    gap: 12px;    
+    flex-grow: 1;
 }
 .footer-bottom-link-txt{
     font-family: 'Hind Siliguri' , sans-serif;
@@ -211,4 +214,8 @@
     background-color: transparent;
     border: 0px;
     padding: 1.25px;
+}
+.copyright-center{
+    position: absolute;
+    justify-self: center;
 }
