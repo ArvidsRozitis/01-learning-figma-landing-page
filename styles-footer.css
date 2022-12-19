@@ -1,0 +1,214 @@
+.logo{
+    width: 112px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+.logo-circle{    
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;    
+    background-color: #FF7235;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;    
+}
+.logo-symbol{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 95%;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    width: 13px;
+    height: 23px; 
+}
+.logo-txt{
+    font-family: 'Hind Siliguri' , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 95%;
+    color: #292830;
+}
+
+.footer{
+    box-sizing: border-box;
+    width: 1440px;
+    height: 530px;
+    padding-top: 80px;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+.footer-top-container{
+    width: 1109px;
+    height: 277px;    
+    display: flex;
+    flex-direction: row;
+}
+.footer-links-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 449px;
+}
+.footer-legal-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 643px;
+}
+.footer-suscribe-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 925px;
+}
+.footer-label-h1{
+    font-family: 'Hind Siliguri' , sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 39px;
+    color: #292830;
+    padding-bottom: 24px;
+}
+.footer-top-link-txt{
+    font-family: 'Hind Siliguri' , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #292830;
+    text-decoration: none;
+}
+.footer-label-h1{
+    font-family: 'Hind Siliguri' , sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 39px;
+    color: #292830;
+    padding-bottom: 24px;
+}
+.footer-news-info1{
+    font-family: 'Hind Siliguri' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #BDBDBD;
+    margin-bottom: 18px;
+}
+.footer-news-info2{
+    font-family: 'Hind Siliguri' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #BDBDBD;
+    margin-top: 10px;
+}
+.footer-suscribe-button-container{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    border: 1px solid #292830;
+    border-radius: 8px;
+    width: 349px;
+    height: 62px;
+    padding-left: 23px;
+    padding-right: 6px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    align-items: center;
+    justify-content: space-between;
+}
+.suscribe-button {
+    box-sizing: border-box;
+    justify-content: center;
+    background-color: #FF7235;
+    border: transparent;
+    width: 102px;
+    height: 48px;
+    border-radius: 8px;
+    font-family: 'Hind Siliguri' , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
+.footer-suscribe-input{
+    display: flex;
+    border-color: transparent;
+    font-family: 'Hind Siliguri' , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: #292830;
+    text-decoration: none;
+    text-align: left;
+    width: 200px;
+
+}
+.footer-suscribe-input:focus {
+    outline: none;
+}
+.footer-suscribe-input::placeholder{
+    font-family: 'Hind Siliguri' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #292830;
+    text-decoration: none;
+    text-align: left;
+}
+.footer-divider{
+    background-color: rgba(189, 189, 189, 0.2);
+    width: 1109px;
+    height: 1px;
+    margin-bottom: 20px;  
+}
+.footer-bottom-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1109px;
+}
+.footer-bottom-left-container{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.footer-bottom-social-container{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.footer-bottom-link-txt{
+    font-family: 'Hind Siliguri' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #292830;
+    text-decoration: none;
+}
+.btn-social{
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 0px;
+    padding: 1.25px;
+}
