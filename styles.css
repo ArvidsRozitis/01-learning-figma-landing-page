@@ -1,4 +1,12 @@
+@font-face {
+    font-family: 'Hind Siliguri';
+    src: url("fonts/HindSiliguri-Regular.ttf") format('truetype');
+}
+
+
+
 .banner{
     width: 1440px;
     height: 750px;
 }
+
