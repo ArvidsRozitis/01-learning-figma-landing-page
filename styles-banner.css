@@ -1,0 +1,74 @@
+.banner-container{
+    width: 1440px;
+    height: 750px;
+    position: relative;
+}
+.banner-demo-container{
+    width: 920px;
+    height: 324px;
+    left: 260px;
+    top: 120px;
+    position: absolute;
+
+ }
+.banner-img-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 1295px;
+    height: 340.23px;
+    left: 61px;
+    top: 317px;
+    margin: 0;
+    position: absolute;  
+}
+.banner-img-1{
+    width: 455px;
+    height: 322px;    
+}
+.banner-img-2{
+    width: 455px;
+    height: 340px;     
+}
+.bubble-container{
+    width: 1440px;
+    height: 750px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.banner-bubble-1{
+    height: 750px;
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;    
+}
+.banner-bubble-2{
+    height: 750px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.banner-title{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100%;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+.banner-sub-title{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 100%;
+    text-align: center;
+    margin: 0;
+    color: #FFFFFF;
+}
